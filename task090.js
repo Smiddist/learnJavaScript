@@ -11,7 +11,7 @@ const arr = [
   function arrayPlus(array, prop){
       const resFin = []
       const res = array.map(function(item){
-          return item.class+item.fare
+          return item[prop[0]]+item[prop[1]]
       })
       const res1 = res.filter(function (item, index){
           return  index === res.indexOf(item)
@@ -26,4 +26,4 @@ const arr = [
           return resFin
   }
   const a = arrayPlus(arr,["class", "fare"])
-  console.info(a)
+  console.info('[29]', {a:JSON.stringify(a)})
