@@ -1,9 +1,9 @@
 let a;
-
-function isPrime(num){
-    return console.info(num%2 !== 0 || num%3 !== 0 && num > 3)
-}
-a = isPrime(3) // true
-a = isPrime(6) // false
-a = isPrime(7) // true
-a = isPrime(12) // false
+function isPrime (num){
+    return (num%2!==0 && num%3!==0 && num%5!==0 || num <=3 )
+    }
+    
+a = isPrime(12) // true
+a = isPrime(16) // false
+a = isPrime(17) // true
+a = isPrime(25) // false

@@ -6,7 +6,7 @@ const prop = 'age'
 
 function getArrObjAverageProp(array, prop){
     const res = array.reduce((res, item) => ((res + item[prop]/array.length)), 0)    
-    return console.info(Math.round(res))
+    return (Math.round(res))
 }
 
 getArrObjAverageProp(arrIn, prop)  // (25 + 30 + 29) / 3 = 28

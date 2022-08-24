@@ -1,6 +1,6 @@
 const letterTemplate = {
     write (str, str1){
-        return console.info("Hey, " + str + " " + str1 + " Yours Anna")
+        return ("Hey, " + str + " " + str1 + " Yours Anna")
     },
 }
 const a = letterTemplate.write("Marina", "Happy Birthday to you!") 

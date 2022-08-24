@@ -8,7 +8,7 @@ function getSubSumsArr (array) {
         }
         result[i] -= array[i]
     }
-    return console.info(result)
+    return (result)
 }
 
 getSubSumsArr( arr )  // [ 1, 1+2, 1+2+3, 1+2+3+4, 1+2+3+4+5 ] = [ 1, 3, 6, 10, 15 ]

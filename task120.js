@@ -8,7 +8,7 @@ function getGreatestDivisorTwoNumbers (a, b){
     }
     for (x; x > 0; x--){
         if (a % x ===0 && b % x ===0){
-            return console.info(x);
+            return x;
         }
     }
 }
