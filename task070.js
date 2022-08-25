@@ -1,9 +1,22 @@
-let a;
-function isPrime (num){
-    return (num%2!==0 && num%3!==0 && num%5!==0 || num <=3 )
+function isPrime (num) {
+    let res;
+    for (let i = 2; i < 10 ; i++){
+    if (num === i){
+    continue
+    }
+    else if (num%i===0){
+    res = false
+    break
+    }
+    else if (num < 2){
+    res = false
     }
     
-a = isPrime(12) // true
-a = isPrime(16) // false
-a = isPrime(17) // true
-a = isPrime(25) // false
+    else {
+    res = true
+    }
+    }
+    
+    return res;
+    }
+    let a = isPrime(1);
