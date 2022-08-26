@@ -11,7 +11,6 @@ function isPrime (num) {
     else if (num < 2){
     res = false
     }
-    
     else {
     res = true
     }
