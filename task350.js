@@ -52,4 +52,3 @@ function getAnswersChecked (arrModel, arrAnwers){
     },
   ]
   const res = getAnswersChecked(arrModel, arrAnwers3) // { total: 2, right: , wrong: 2 }
-  
