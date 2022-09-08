@@ -1,0 +1,15 @@
+{
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "tsxSingleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "import/no-cycle": ["error", { "maxDepth": 1 }],
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "endOfLine": "auto"
+}

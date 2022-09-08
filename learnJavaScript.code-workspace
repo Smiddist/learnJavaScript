@@ -1,7 +1,98 @@
 {
 	"folders": [
-		{
-			"path": "."
-		}
-	]
-}
+	  {
+		"path": "."
+	  }
+	],
+	"settings": {
+	  "apollographql.trace.server": "messages",
+	  "breadcrumbs.enabled": true,
+	  "diffEditor.ignoreTrimWhitespace": false,
+	  "editor.defaultFormatter": "esbenp.prettier-vscode",
+	  "editor.detectIndentation": false,
+	  "editor.find.autoFindInSelection": "always",
+	  "editor.folding": true,
+	  "editor.foldingStrategy": "indentation",
+	  "editor.fontLigatures": false,
+	  "editor.formatOnSave": true,
+	  "editor.formatOnType": true,
+	  "editor.insertSpaces": true,
+	  "editor.largeFileOptimizations": false,
+	  "editor.renderWhitespace": "all",
+	  "editor.showFoldingControls": "always",
+	  "editor.suggestSelection": "first",
+	  "editor.tabSize": 2,
+	  "editor.wordWrap": "off",
+	  "files.associations": {},
+	  "files.autoSave": "off",
+	  "files.exclude": {
+		"**/.classpath": true,
+		"**/.factorypath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/node_modules": true
+	  },
+	  "git.autofetch": true,
+	  "html.format.contentUnformatted": "",
+	  "html.format.unformatted": "",
+	  "[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features",
+		"editor.formatOnSave": true
+	  },
+  
+	  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+	  "javascript.suggest.completeFunctionCalls": true,
+	  "javascript.validate.enable": true,
+	  "javascript.updateImportsOnFileMove.enabled": "never",
+	  "[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode", 
+    "editor.formatOnSave": true
+	  },
+	  "js/ts.implicitProjectConfig.strictNullChecks": true,
+	  "json.schemas": [],
+	  "[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.quickSuggestions": {
+		  "strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	  },
+	  "jupyter.sendSelectionToInteractiveWindow": true,
+	  "npm.scriptExplorerAction": "run",
+	  "php.validate.run": "onType",
+	  "prettier.endOfLine": "auto",
+	  "python.analysis.extraPaths": [],
+	  "python.analysis.typeCheckingMode": "basic",
+	  "python.autoComplete.extraPaths": [],
+	  "python.formatting.provider": "yapf",
+	  "python.linting.lintOnSave": true,
+	  "python.linting.enabled": true,
+	  "python.linting.pylintPath": "pylint",
+	  "python.linting.pylintEnabled": true,
+	  "python.languageServer": "Pylance",
+	  "python.formatting.yapfPath": "yapf",
+	  "[python]": {
+		"editor.defaultFormatter": null,
+		"editor.formatOnSave": true
+	  },
+	  "search.exclude": {
+		"**/.git": true,
+		"**/bin": true,
+		"**/dist": true,
+		"**/public": true
+	  },
+	  "task.slowProviderWarning": false,
+	  "terminal.integrated.env.windows": {},
+	  "typescript.enablePromptUseWorkspaceTsdk": true,
+	  "typescript.suggest.completeFunctionCalls": true,
+	  "typescript.locale": "en",
+	  "[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	  },
+	  "[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	  },
+	  "window.zoomLevel": 1,
+	  "workbench.editorAssociations": {}
+	}
+  }

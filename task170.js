@@ -6,9 +6,9 @@ function getSubSumsArr (array) {
         for (let j = 0; j <= i; j++){
             result[i] += array[j]
         }
-        result[i] -= array[i]
+      result[i] -= array[i]
     }
-    return (result)
+  return (result)
 }
 
 getSubSumsArr( arr )  // [ 1, 1+2, 1+2+3, 1+2+3+4, 1+2+3+4+5 ] = [ 1, 3, 6, 10, 15 ]
